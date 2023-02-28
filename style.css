@@ -36,7 +36,7 @@ body {
     font-weight: bold;
     color: #000000;
     background-color: #ececec;
-    width: 70vw;
+    width: 100%;
     height: auto;
     margin: 20px 0 20px 0;
     border-radius: 20px;
@@ -45,7 +45,6 @@ body {
 
 #lista li {
     display: flex;
-    margin-left: 25%;
     text-align: left;
     margin-top: 10px;
 }
@@ -84,7 +83,14 @@ input {
 }
 
 #btnExcluir {
-    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    justify-content: left;
+    margin-right: 20px;
+
+}
+#btnEditar{
     background: none;
     border: none;
     cursor: pointer;
